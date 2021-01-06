@@ -173,7 +173,7 @@ def main():
 
             else:
                 st.warning("Incorrect Username or Password")
-    elif signuplogin=="Sign Up":
+    elif signuplogin=="SignUp":
         st.subheader("Create New Account")
         new_username=st.sidebar.text_input("Username")
         new_password=st.sidebar.text_input("Password",type='password')
